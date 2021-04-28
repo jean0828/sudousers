@@ -5,6 +5,7 @@ do
 	num=$(sudo -l -U $usr)
 	   if [[ $num == "$string"* ]]
 	   then
+		   echo $usr | paste -sd ',' >> sudousers.csv
 		   echo $usr
 	   fi
 done
