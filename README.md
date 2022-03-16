@@ -1,5 +1,5 @@
 # sudousers
-This is a little script which shows all linux account which have the privilege to use sudo
+This is a little script which shows all linux accounts which have the privilege to use sudo
 
 To use the script you have to:
 
